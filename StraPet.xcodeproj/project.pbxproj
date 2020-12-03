@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC5DD78E2578DB4800CA607D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD78D2578DB4800CA607D /* AppDelegate.swift */; };
+		EC5DD7902578DB4800CA607D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD78F2578DB4800CA607D /* SceneDelegate.swift */; };
+		EC5DD7922578DB4800CA607D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD7912578DB4800CA607D /* ContentView.swift */; };
+		EC5DD7952578DB4800CA607D /* StraPet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD7932578DB4800CA607D /* StraPet.xcdatamodeld */; };
+		EC5DD7972578DB4800CA607D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5DD7962578DB4800CA607D /* Assets.xcassets */; };
+		EC5DD79A2578DB4800CA607D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5DD7992578DB4800CA607D /* Preview Assets.xcassets */; };
+		EC5DD79D2578DB4800CA607D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5DD79B2578DB4800CA607D /* LaunchScreen.storyboard */; };
+		EC5DD7A82578DB4800CA607D /* StraPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD7A72578DB4800CA607D /* StraPetTests.swift */; };
+		EC5DD7B32578DB4800CA607D /* StraPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD7B22578DB4800CA607D /* StraPetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5DD7A42578DB4800CA607D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5DD7822578DB4800CA607D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5DD7892578DB4800CA607D;
+			remoteInfo = StraPet;
+		};
+		EC5DD7AF2578DB4800CA607D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5DD7822578DB4800CA607D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5DD7892578DB4800CA607D;
+			remoteInfo = StraPet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC5DD78A2578DB4800CA607D /* StraPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StraPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5DD78D2578DB4800CA607D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC5DD78F2578DB4800CA607D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC5DD7912578DB4800CA607D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC5DD7942578DB4800CA607D /* StraPet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StraPet.xcdatamodel; sourceTree = "<group>"; };
+		EC5DD7962578DB4800CA607D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC5DD7992578DB4800CA607D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC5DD79C2578DB4800CA607D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC5DD79E2578DB4800CA607D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5DD7A32578DB4800CA607D /* StraPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StraPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5DD7A72578DB4800CA607D /* StraPetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StraPetTests.swift; sourceTree = "<group>"; };
+		EC5DD7A92578DB4800CA607D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5DD7AE2578DB4800CA607D /* StraPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StraPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5DD7B22578DB4800CA607D /* StraPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StraPetUITests.swift; sourceTree = "<group>"; };
+		EC5DD7B42578DB4800CA607D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5DD7872578DB4800CA607D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5DD7A02578DB4800CA607D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5DD7AB2578DB4800CA607D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5DD7812578DB4800CA607D = {
+			isa = PBXGroup;
+			children = (
+				EC5DD78C2578DB4800CA607D /* StraPet */,
+				EC5DD7A62578DB4800CA607D /* StraPetTests */,
+				EC5DD7B12578DB4800CA607D /* StraPetUITests */,
+				EC5DD78B2578DB4800CA607D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5DD78B2578DB4800CA607D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5DD78A2578DB4800CA607D /* StraPet.app */,
+				EC5DD7A32578DB4800CA607D /* StraPetTests.xctest */,
+				EC5DD7AE2578DB4800CA607D /* StraPetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5DD78C2578DB4800CA607D /* StraPet */ = {
+			isa = PBXGroup;
+			children = (
+				EC5DD78D2578DB4800CA607D /* AppDelegate.swift */,
+				EC5DD78F2578DB4800CA607D /* SceneDelegate.swift */,
+				EC5DD7912578DB4800CA607D /* ContentView.swift */,
+				EC5DD7962578DB4800CA607D /* Assets.xcassets */,
+				EC5DD79B2578DB4800CA607D /* LaunchScreen.storyboard */,
+				EC5DD79E2578DB4800CA607D /* Info.plist */,
+				EC5DD7932578DB4800CA607D /* StraPet.xcdatamodeld */,
+				EC5DD7982578DB4800CA607D /* Preview Content */,
+			);
+			path = StraPet;
+			sourceTree = "<group>";
+		};
+		EC5DD7982578DB4800CA607D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC5DD7992578DB4800CA607D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC5DD7A62578DB4800CA607D /* StraPetTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5DD7A72578DB4800CA607D /* StraPetTests.swift */,
+				EC5DD7A92578DB4800CA607D /* Info.plist */,
+			);
+			path = StraPetTests;
+			sourceTree = "<group>";
+		};
+		EC5DD7B12578DB4800CA607D /* StraPetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5DD7B22578DB4800CA607D /* StraPetUITests.swift */,
+				EC5DD7B42578DB4800CA607D /* Info.plist */,
+			);
+			path = StraPetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5DD7892578DB4800CA607D /* StraPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5DD7B72578DB4800CA607D /* Build configuration list for PBXNativeTarget "StraPet" */;
+			buildPhases = (
+				EC5DD7862578DB4800CA607D /* Sources */,
+				EC5DD7872578DB4800CA607D /* Frameworks */,
+				EC5DD7882578DB4800CA607D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StraPet;
+			productName = StraPet;
+			productReference = EC5DD78A2578DB4800CA607D /* StraPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5DD7A22578DB4800CA607D /* StraPetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5DD7BA2578DB4800CA607D /* Build configuration list for PBXNativeTarget "StraPetTests" */;
+			buildPhases = (
+				EC5DD79F2578DB4800CA607D /* Sources */,
+				EC5DD7A02578DB4800CA607D /* Frameworks */,
+				EC5DD7A12578DB4800CA607D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5DD7A52578DB4800CA607D /* PBXTargetDependency */,
+			);
+			name = StraPetTests;
+			productName = StraPetTests;
+			productReference = EC5DD7A32578DB4800CA607D /* StraPetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC5DD7AD2578DB4800CA607D /* StraPetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5DD7BD2578DB4800CA607D /* Build configuration list for PBXNativeTarget "StraPetUITests" */;
+			buildPhases = (
+				EC5DD7AA2578DB4800CA607D /* Sources */,
+				EC5DD7AB2578DB4800CA607D /* Frameworks */,
+				EC5DD7AC2578DB4800CA607D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5DD7B02578DB4800CA607D /* PBXTargetDependency */,
+			);
+			name = StraPetUITests;
+			productName = StraPetUITests;
+			productReference = EC5DD7AE2578DB4800CA607D /* StraPetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5DD7822578DB4800CA607D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EC5DD7892578DB4800CA607D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					EC5DD7A22578DB4800CA607D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EC5DD7892578DB4800CA607D;
+					};
+					EC5DD7AD2578DB4800CA607D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EC5DD7892578DB4800CA607D;
+					};
+				};
+			};
+			buildConfigurationList = EC5DD7852578DB4800CA607D /* Build configuration list for PBXProject "StraPet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC5DD7812578DB4800CA607D;
+			productRefGroup = EC5DD78B2578DB4800CA607D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5DD7892578DB4800CA607D /* StraPet */,
+				EC5DD7A22578DB4800CA607D /* StraPetTests */,
+				EC5DD7AD2578DB4800CA607D /* StraPetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5DD7882578DB4800CA607D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5DD79D2578DB4800CA607D /* LaunchScreen.storyboard in Resources */,
+				EC5DD79A2578DB4800CA607D /* Preview Assets.xcassets in Resources */,
+				EC5DD7972578DB4800CA607D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5DD7A12578DB4800CA607D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5DD7AC2578DB4800CA607D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5DD7862578DB4800CA607D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5DD78E2578DB4800CA607D /* AppDelegate.swift in Sources */,
+				EC5DD7902578DB4800CA607D /* SceneDelegate.swift in Sources */,
+				EC5DD7922578DB4800CA607D /* ContentView.swift in Sources */,
+				EC5DD7952578DB4800CA607D /* StraPet.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5DD79F2578DB4800CA607D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5DD7A82578DB4800CA607D /* StraPetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5DD7AA2578DB4800CA607D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5DD7B32578DB4800CA607D /* StraPetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5DD7A52578DB4800CA607D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5DD7892578DB4800CA607D /* StraPet */;
+			targetProxy = EC5DD7A42578DB4800CA607D /* PBXContainerItemProxy */;
+		};
+		EC5DD7B02578DB4800CA607D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5DD7892578DB4800CA607D /* StraPet */;
+			targetProxy = EC5DD7AF2578DB4800CA607D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC5DD79B2578DB4800CA607D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5DD79C2578DB4800CA607D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5DD7B52578DB4800CA607D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC5DD7B62578DB4800CA607D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5DD7B82578DB4800CA607D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"StraPet/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S72DANBXZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StraPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = archiexdex.StraPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC5DD7B92578DB4800CA607D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"StraPet/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S72DANBXZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StraPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = archiexdex.StraPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC5DD7BB2578DB4800CA607D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S72DANBXZ;
+				INFOPLIST_FILE = StraPetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = archiexdex.StraPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StraPet.app/StraPet";
+			};
+			name = Debug;
+		};
+		EC5DD7BC2578DB4800CA607D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S72DANBXZ;
+				INFOPLIST_FILE = StraPetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = archiexdex.StraPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StraPet.app/StraPet";
+			};
+			name = Release;
+		};
+		EC5DD7BE2578DB4800CA607D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S72DANBXZ;
+				INFOPLIST_FILE = StraPetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = archiexdex.StraPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StraPet;
+			};
+			name = Debug;
+		};
+		EC5DD7BF2578DB4800CA607D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S72DANBXZ;
+				INFOPLIST_FILE = StraPetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = archiexdex.StraPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StraPet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5DD7852578DB4800CA607D /* Build configuration list for PBXProject "StraPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5DD7B52578DB4800CA607D /* Debug */,
+				EC5DD7B62578DB4800CA607D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5DD7B72578DB4800CA607D /* Build configuration list for PBXNativeTarget "StraPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5DD7B82578DB4800CA607D /* Debug */,
+				EC5DD7B92578DB4800CA607D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5DD7BA2578DB4800CA607D /* Build configuration list for PBXNativeTarget "StraPetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5DD7BB2578DB4800CA607D /* Debug */,
+				EC5DD7BC2578DB4800CA607D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5DD7BD2578DB4800CA607D /* Build configuration list for PBXNativeTarget "StraPetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5DD7BE2578DB4800CA607D /* Debug */,
+				EC5DD7BF2578DB4800CA607D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC5DD7932578DB4800CA607D /* StraPet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC5DD7942578DB4800CA607D /* StraPet.xcdatamodel */,
+			);
+			currentVersion = EC5DD7942578DB4800CA607D /* StraPet.xcdatamodel */;
+			path = StraPet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC5DD7822578DB4800CA607D /* Project object */;
+}
