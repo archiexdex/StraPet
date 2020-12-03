@@ -16,6 +16,11 @@
 		EC5DD79D2578DB4800CA607D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5DD79B2578DB4800CA607D /* LaunchScreen.storyboard */; };
 		EC5DD7A82578DB4800CA607D /* StraPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD7A72578DB4800CA607D /* StraPetTests.swift */; };
 		EC5DD7B32578DB4800CA607D /* StraPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD7B22578DB4800CA607D /* StraPetUITests.swift */; };
+		EC5DD7C425795A5800CA607D /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD7C325795A5800CA607D /* DiscoverView.swift */; };
+		EC5DD7C925795ACA00CA607D /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD7C825795ACA00CA607D /* UploadView.swift */; };
+		EC5DD7CE25795ADE00CA607D /* BookMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD7CD25795ADE00CA607D /* BookMarkView.swift */; };
+		EC5DD7D325795AF100CA607D /* VolunteerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD7D225795AF100CA607D /* VolunteerView.swift */; };
+		EC5DD7D825795B6F00CA607D /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DD7D725795B6F00CA607D /* MessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		EC5DD7AE2578DB4800CA607D /* StraPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StraPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5DD7B22578DB4800CA607D /* StraPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StraPetUITests.swift; sourceTree = "<group>"; };
 		EC5DD7B42578DB4800CA607D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5DD7C325795A5800CA607D /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		EC5DD7C825795ACA00CA607D /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		EC5DD7CD25795ADE00CA607D /* BookMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkView.swift; sourceTree = "<group>"; };
+		EC5DD7D225795AF100CA607D /* VolunteerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerView.swift; sourceTree = "<group>"; };
+		EC5DD7D725795B6F00CA607D /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +111,19 @@
 		EC5DD78C2578DB4800CA607D /* StraPet */ = {
 			isa = PBXGroup;
 			children = (
+				EC5DD79E2578DB4800CA607D /* Info.plist */,
 				EC5DD78D2578DB4800CA607D /* AppDelegate.swift */,
-				EC5DD78F2578DB4800CA607D /* SceneDelegate.swift */,
+				EC5DD7CD25795ADE00CA607D /* BookMarkView.swift */,
 				EC5DD7912578DB4800CA607D /* ContentView.swift */,
+				EC5DD7C325795A5800CA607D /* DiscoverView.swift */,
+				EC5DD7D725795B6F00CA607D /* MessageView.swift */,
+				EC5DD78F2578DB4800CA607D /* SceneDelegate.swift */,
+				EC5DD7C825795ACA00CA607D /* UploadView.swift */,
+				EC5DD7D225795AF100CA607D /* VolunteerView.swift */,
 				EC5DD7962578DB4800CA607D /* Assets.xcassets */,
 				EC5DD79B2578DB4800CA607D /* LaunchScreen.storyboard */,
-				EC5DD79E2578DB4800CA607D /* Info.plist */,
-				EC5DD7932578DB4800CA607D /* StraPet.xcdatamodeld */,
 				EC5DD7982578DB4800CA607D /* Preview Content */,
+				EC5DD7932578DB4800CA607D /* StraPet.xcdatamodeld */,
 			);
 			path = StraPet;
 			sourceTree = "<group>";
@@ -270,7 +285,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC5DD78E2578DB4800CA607D /* AppDelegate.swift in Sources */,
+				EC5DD7CE25795ADE00CA607D /* BookMarkView.swift in Sources */,
 				EC5DD7902578DB4800CA607D /* SceneDelegate.swift in Sources */,
+				EC5DD7D825795B6F00CA607D /* MessageView.swift in Sources */,
+				EC5DD7C425795A5800CA607D /* DiscoverView.swift in Sources */,
+				EC5DD7C925795ACA00CA607D /* UploadView.swift in Sources */,
+				EC5DD7D325795AF100CA607D /* VolunteerView.swift in Sources */,
 				EC5DD7922578DB4800CA607D /* ContentView.swift in Sources */,
 				EC5DD7952578DB4800CA607D /* StraPet.xcdatamodeld in Sources */,
 			);
@@ -445,6 +465,7 @@
 				DEVELOPMENT_TEAM = 3S72DANBXZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = StraPet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = archiexdex.StraPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,6 +487,7 @@
 				DEVELOPMENT_TEAM = 3S72DANBXZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = StraPet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,7 +495,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = archiexdex.StraPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
